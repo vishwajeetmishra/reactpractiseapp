@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
+import { Outlet } from 'react-router-dom'
+import { NavBar } from './components'
 
 function App() {
 
   return (
     <React.Fragment>
-      <h1>MY REACT PRACTISE APP</h1>
+      <NavBar />
+      <Outlet />
     </React.Fragment>
   )
 }
