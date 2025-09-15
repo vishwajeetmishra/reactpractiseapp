@@ -8,7 +8,8 @@ const NavBar = (_props: Props) => {
   return (
     <nav>
         <Link to="/">Home | </Link>
-        <Link to="/formspage">Forms</Link>
+        <Link to="/formspage">Forms | </Link>
+        <Link to="/hoc">HOC</Link>
     </nav>
   )
 }
