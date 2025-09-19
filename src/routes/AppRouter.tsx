@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import { FormsPage, HomePage } from "../pages";
+import { CounterPage, FormsPage, HomePage, Users } from "../pages";
 import { AuthHOC } from "../components";
 
 const AppRouter = createBrowserRouter([
@@ -20,6 +20,14 @@ const AppRouter = createBrowserRouter([
         path: 'hoc',
         element: <AuthHOC />,
       },
+      {
+        path: 'reduxcounter',
+        element: <CounterPage />,
+      },
+      {
+        path: 'users',
+        element: <Users />,
+      }
     ],
   },
 ]);

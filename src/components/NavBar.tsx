@@ -9,7 +9,9 @@ const NavBar = (_props: Props) => {
     <nav>
         <Link to="/">Home | </Link>
         <Link to="/formspage">Forms | </Link>
-        <Link to="/hoc">HOC</Link>
+        <Link to="/hoc">HOC | </Link>
+        <Link to="/reduxcounter">Redux Counter | </Link>
+        <Link to="/users">Users</Link>
     </nav>
   )
 }
